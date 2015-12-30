@@ -1,0 +1,16 @@
+{
+  "name": "haxe-newfile",
+  "main": "./lib/haxe-newfile",
+  "version": "0.0.1",
+  "description": "Fills a new haxe file",
+  "activationCommands": {
+    "atom-workspace": []
+  },
+  "repository": "https://github.com/blue112/atom-haxe-newfile",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
