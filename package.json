@@ -2,6 +2,10 @@
   "name": "haxe-newfile",
   "main": "./lib/haxe-newfile",
   "version": "0.2.0",
+  "keywords": [
+      "haxe",
+      "autofill"
+  ],
   "description": "Fills a new haxe file",
   "activationCommands": {
     "atom-workspace": []
