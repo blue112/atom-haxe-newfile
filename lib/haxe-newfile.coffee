@@ -24,6 +24,9 @@ module.exports = HaxeNewfile =
       if editor.getText() == ""
           p = atom.project.getPaths()[0]
 
+          if path.substr(-3) != ".hx"
+              return
+
           pack = ""
           if path.indexOf(p) != -1
               sp = path.substr(path.indexOf(p) + p.length + 1).split("/")
@@ -42,7 +45,7 @@ module.exports = HaxeNewfile =
             {
                 public function new()
                 {
-                    
+
                 }
             }
           """
